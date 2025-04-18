@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #424242; /* Dark gray text for better contrast */
+}
+
+header {
+    background: #ffffff; /* White header for contrast */
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align nav items */
+}
+
+nav ul li {
+    display: inline-block; /* Arrange as buttons */
+    margin-right: 15px; /* Space between buttons */
+}
+
+nav ul li:nth-child(1) a {
+    background-color: #FF5733; /* Coral Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(2) a {
+    background-color: #33C1FF; /* Light Sky Blue */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(3) a {
+    background-color: #8E44AD; /* Purple */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(4) a {
+    background-color: #E74C3C; /* Red */
+    color: #ffffff; /* White text */
+}
+
+nav ul li:nth-child(5) a {
+    background-color: #F39C12; /* Vibrant Orange */
+    color: #ffffff; /* White text */
+}
+
+/* Add some padding to the buttons */
+nav ul li a {
+    padding: 12px 20px; /* Increased padding for a larger button feel */
+    border-radius: 8px; /* More rounded corners */
+    text-decoration: none;
+    display: inline-block; /* Ensure they behave like buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change color on hover for each button */
+nav ul li a:hover {
+    filter: brightness(0.85); /* Darken on hover */
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #F1C40F; /* Bright Yellow For the hero section */
+    color: #ffffff; /* White text */
+}
+
+.profile-photo {
+    margin: 20px auto;
+    width: 150px; /* Width of the circular frame */
+    height: 150px; /* Height of the circular frame */
+    border-radius: 50%; /* Makes the frame circular */
+    overflow: hidden; /* Prevents overflow */
+    border: 5px solid #ffffff; /* White border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* Increased shadow for depth */
+}
+
+.profile-photo img {
+    width: 100%; /* Fills the frame */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Prevents inline spacing */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #dcdcdc; /* Light gray border */
+    background: #ffffff; /* White background for sections */
+}
+
+h3 {
+    color: #C0392B; /* Bright Red for headings */
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background: #34495E; /* Dark Blue-Gray for footer */
+    color: #ffffff; /* White text */
+}
+
+/* Specific section styling for Education, Skills, Projects, Contact */
+section h2 {
+    color: #16A085; /* Teal */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #E67E22; /* Carrot Orange for underline */
+    padding-bottom: 12px;
+    text-align: left; /* Align to the left */
+}
+
+/* Semester grades heading */
+.section h3 {
+    color: #555555; /* Dark gray */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left; /* Align to the left */
+}
+
+/* 1st and 2nd Semester subheadings */
+.section h4 {
+    color: #2980B9; /* Bright Blue */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left; /* Align to the left */
+}
+
+/* Grades table styling */
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.grades-table th,
+.grades-table td {
+    border: 1px solid #9B59B6; /* Purple */
+    padding: 10px;
+    text-align: left;
+}
+
+.grades-table th {
+    background-color: #F39C12; /* Vibrant Orange for header */
+    font-weight: bold;
+}
+
+/* Grade colors */
+.grade-a {
+    color: #27AE60; /* Bright Green */
+    font-weight: bold;
+}
+
+.grade-b-plus {
+    color: #FFA500; /* Amber */
+    font-weight: bold;
+}
+
+strong {
+    color: #2C3E50; /* Darker color for strong emphasis */
+}
